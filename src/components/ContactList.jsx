@@ -16,6 +16,7 @@ function ContactList({contacts, deleteContact}) {
     );
 }
 
+
 ContactList.propTypes = {
     contacts: PropTypes.arrayOf(
         PropTypes.shape({
